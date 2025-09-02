@@ -11,7 +11,7 @@ const technologies = [
 	},
 	{
 		category: 'Database',
-		items: ['SQL Server', 'SSMS', 'Stored Procedures', 'Query Optimization'],
+		items: ['SQL Server', 'Stored Procedures', 'Query Optimization'],
 	},
 	{
 		category: 'Tools & Concepts',
