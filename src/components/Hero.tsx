@@ -3,47 +3,35 @@ import { Calendar, MapPin } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 py-20">
-      <div className="max-w-4xl mx-auto text-center">
-        <div className="mb-8">
-          <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
-            {/* <Building2 className="w-4 h-4" /> */}
+    <section className="min-h-screen flex items-center justify-center px-4 py-10 bg-white">
+      <div className="max-w-2xl mx-auto text-center">
+        <div className="mb-6">
+          <div className="text-base font-normal mb-4">
             Nallan Chakravarthula Aswin sai
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
+          <h1 className="text-4xl font-bold text-black mb-4">
             My Journey at
-            <span
-              className="block font-extrabold text-blue-700"
-              style={{
-                textShadow: '0 2px 8px rgba(30,64,175,0.15), 0 1px 0 #fff'
-              }}
-            >
+            <span className="block font-bold text-blue-700" style={{ textShadow: 'none' }}>
               RealPage
             </span>
           </h1>
-          {/* <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Exploring Real User Monitoring, mastering full-stack development, 
-            and contributing to enterprise-level software solutions
-          </p> */}
         </div>
-        
-        <div className="flex flex-wrap justify-center gap-6 mb-12">
-          <div className="flex items-center gap-2 bg-white px-6 py-3 rounded-lg shadow-sm">
+        <div className="flex flex-wrap justify-center gap-4 mb-8">
+          <div className="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded">
             <Calendar className="w-5 h-5 text-blue-600" />
-            <span className="font-medium">August 7 - Present</span>
+            <span className="font-normal">August 7 - Present</span>
           </div>
-          <div className="flex items-center gap-2 bg-white px-6 py-3 rounded-lg shadow-sm">
+          <div className="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded">
             <MapPin className="w-5 h-5 text-blue-600" />
-            <span className="font-medium">4th week</span>
+            <span className="font-normal">4th week</span>
           </div>
         </div>
-
-        <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/20">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Internship Overview</h2>
-          <p className="text-lg text-gray-700 leading-relaxed">
-            During my internship at RealPage, I focused on enterprise development, 
-            specifically Realpage Utility Management (RUM). My journey involved learning 
-            technologies, collaborating with experienced developers, and contributing to production-level 
+        <div className="bg-gray-100 rounded p-4 border border-gray-200">
+          <h2 className="text-xl font-bold text-black mb-2">Internship Overview</h2>
+          <p className="text-base text-gray-800">
+            During my internship at RealPage, I focused on enterprise development,
+            specifically Realpage Utility Management (RUM). My journey involved learning
+            technologies, collaborating with experienced developers, and contributing to production-level
             applications that serve thousands of users.
           </p>
         </div>
