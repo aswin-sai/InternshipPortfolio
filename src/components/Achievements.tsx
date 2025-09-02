@@ -18,14 +18,14 @@ const achievements = [
   {
     icon: Lightbulb,
     title: 'Technology Mastery',
-    description: 'Learned new technologies including C#, .NET, and enterprise architecture',
-    metric: '8+',
+    description: 'Learned new technologies including C#, .NET, ASP.NET, and SQL Server',
+    metric: '7+',
     color: 'purple'
   },
   {
     icon: Trophy,
-    title: 'Active Contribution',
-    description: 'Started contributing to UI fixes and backend integration within 3 weeks',
+    title: 'Active learning',
+    description: 'Started Learning UI fixes and backend integration within 3 weeks',
     metric: '∞',
     color: 'orange'
   }

@@ -16,7 +16,7 @@ const technologies = [
 	{
 		category: 'Tools & Concepts',
 		items: [
-			'RUM (Real User Monitoring)',
+			'RUM (Realpage Utility Management)',
 			'Service Requests',
 			'Git',
 			'Development Environment',

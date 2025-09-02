@@ -5,16 +5,16 @@ export const timelineData: WeekData[] = [
     id: 'week1',
     title: 'Week 1: Foundation & Discovery',
     dateRange: 'August 7-11, 2024',
-    description: "My first week focused on understanding RealPage's culture, team dynamics, and diving deep into Real User Monitoring (RUM) concepts.",
+    description: "My first week focused on understanding RealPage's culture, team dynamics, and diving deep into Realpage Utility Management (RUM) concepts.",
     activities: [
       'First day onboarding and team introductions',
       'Explored company culture, tools, and expectations',
-      'Initiated comprehensive research into Real User Monitoring (RUM)',
+      'Initiated comprehensive research into Realpage Utility Management (RUM)',
       'Deep-dived into RUM architecture and web application integration',
       'Explored RealPage tech stack: React, TypeScript, C#, .NET, SQL Server',
       'Documented findings and shared insights with team peers'
     ],
-    highlights: 'Successfully grasped the fundamentals of RUM and its critical role in performance monitoring, setting a strong foundation for the internship.',
+    highlights: 'Successfully grasped the fundamentals of RUM and its critical role, setting a strong foundation for the internship.',
     srs: [
       'SR-1909949',
       '1. Git',
@@ -52,10 +52,8 @@ export const timelineData: WeekData[] = [
       'Cloned main repository and configured local development environment',
       'Received detailed walkthrough of folder structure from Karthikeya',
       'Mastered frontend architecture: components, routing, state management',
-      'Started contributing to minor UI fixes and enhancements',
       'Explored backend C# codebase (challenging but exciting)',
       'Initiated structured learning of C# fundamentals and OOP concepts',
-      'Documented backend flow and mapped critical API endpoints',
       'Practiced C# programming and explored ASP.NET structure'
     ],
     highlights: 'Made first code contributions while simultaneously learning C# and backend architecture, demonstrating rapid adaptation to new technologies.',
@@ -73,12 +71,11 @@ export const timelineData: WeekData[] = [
       'Installed and configured .NET SDK, ASP.NET Core, and SSMS',
       'Explored SQL Server Management Studio and executed complex queries',
       'Studied comprehensive database schema and relationships',
-      'Advanced backend learning: ASP.NET MVC and Entity Framework',
+      'Advanced backend learning: ASP.NET ',
       'Coordinated with IT support for local admin setup completion',
-      'Practiced advanced SQL queries and stored procedures',
-      'Successfully integrated backend logic with frontend components'
+      'Practiced advanced SQL queries and stored procedures'
     ],
-    highlights: 'Achieved full-stack development capabilities and successfully integrated frontend-backend components, marking the completion of a comprehensive learning journey.',
+    highlights: 'Achieved full-stack development capabilities and successfully understood frontend-backend components, marking the completion of a comprehensive learning journey.',
     srs: [
       'SR-1915544 - Admin access for IIS, Command Prompt, Powershell, Visual Studio 2022, Visual Studio Code (Pending)'
     ],
