@@ -41,8 +41,8 @@ export const Hero: React.FC = () => {
         <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/20">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Internship Overview</h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            During my internship at RealPage, I immersed myself in enterprise development, 
-            focusing on Real Realpage Utility management. My journey involved learning 
+            During my internship at RealPage, I focused on enterprise development, 
+            specifically Realpage Utility Management (RUM). My journey involved learning 
             technologies, collaborating with experienced developers, and contributing to production-level 
             applications that serve thousands of users.
           </p>
